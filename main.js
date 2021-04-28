@@ -1,3 +1,3 @@
-window.onload = () => {
-  alert("Javascript loaded");
-};
+(() => {
+  document.querySelector("#js-loaded").innerHTML = "Javascript Loaded";
+})();
